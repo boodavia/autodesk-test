@@ -1,0 +1,132 @@
+@media (min-width:1720px) {
+    #explore-main,
+    #explore-wrapper .container {
+        width: 1634px;
+    }
+    .featured-channels {
+        width: 580px;
+    }
+}
+
+@media (min-width:1388px) and (max-width:1719px) {
+    #explore-main,
+    #explore-wrapper .container {
+        width: 1302px;
+    }
+}
+
+@media (max-width:1387px) {
+    #explore-main,
+    #explore-wrapper .container {
+        width: 970px;
+    }
+}
+
+#explore-main {
+    margin: 0 auto;
+}
+
+.explore-covers-list li,
+.search-ibles li {
+    margin: 0 13px 25px 13px;
+    float: left;
+}
+
+#explore-wrapper {
+    padding: 23px 0;
+}
+
+.explore-content {
+    margin-left: -13px;
+    margin-right: -13px;
+}
+
+.cover-item {
+    position: relative;
+    width: 306px;
+    background: #fff;
+    box-shadow: 0 1px 0px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.cover-item:hover {
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.20);
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.20);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.20);
+    border: 1px solid rgba(0, 0, 0, 0.20);
+}
+
+.cover-item .cover-image {
+    display: block;
+    overflow: hidden;
+    width: 304px;
+    height: 255px;
+    text-align: center;
+}
+
+.cover-image img {
+    max-width: none
+}
+
+.cover-info {
+    background: #fff;
+    padding: 10px 13px;
+    margin-bottom: 10px;
+    height: 50px;
+    /* overflow: hidden */
+}
+
+.cover-info .title {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.cover-info .title a {
+    color: #333;
+}
+
+.cover-info .author,
+.cover-info .channel {
+    color: #999;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.cover-info .author a,
+.cover-info .channel a {
+    color: #555
+}
+
+span.author {
+    color: #999
+}
+
+
+.icon-instructable, .icon-views, .icon-comments, .icon-lessons, .icon-followers {
+	background-image: url(stats-sprite.png);
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 24px;
+    vertical-align: bottom;
+	margin-top:0px;
+}
+
+.icon-instructable {
+    background-position: 0px 0px;
+}
+.icon-views {
+    background-position: 0px -24px;
+}
+.icon-comments {
+    background-position: 0px -48px;
+}
+.icon-lessons {
+    background-position: 0px -72px;
+}
+.icon-followers {
+    background-position: 0px -96px;
+}
